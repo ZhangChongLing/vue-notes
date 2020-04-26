@@ -2,6 +2,17 @@
     <div class="home">
         <h1>Vue源码剖析笔记</h1>
         <Button class="read" @click="toPage('00')" style="background-color:#41b883">前言篇</Button>
+        <Button class="read" @click="showModal()" style="background-color:#41b883">总目录</Button>
+        <Modal
+                width="660"
+                :draggable="false"
+                v-model="modal"
+                title="总目录"
+                >
+            <div>
+                <img src="./catalog.png"  alt="目录图"/>
+            </div>
+        </Modal>
         <div>
             <Button class="card" @click="toPage('30')">Vue3尝鲜篇</Button>
             <Button class="card" @click="toPage('01')">01核心思想篇</Button>
