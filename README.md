@@ -18,4 +18,4 @@ Vue源码剖析笔记
 
 ##4.结束语
 致敬每一个开源人，热爱分享的开发者。
-![目录图](/src/views/catalog.png)
+![目录图](./src/assets/catalog.png)
