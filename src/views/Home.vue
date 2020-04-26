@@ -10,7 +10,7 @@
                 title="总目录"
                 >
             <div>
-                <img src="catalog.png"  alt="目录图"/>
+                <img src="./catalog.png"  alt="目录图"/>
             </div>
         </Modal>
         <div>
