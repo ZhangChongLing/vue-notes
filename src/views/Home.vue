@@ -1,14 +1,10 @@
 <template>
     <div class="home">
         <h1>Vue源码剖析笔记</h1>
-        <Button class="read" @click="toPage('00')" style="background-color:#41b883">前言篇</Button>
+        <Button class="read" @click="toPage('00')" style="background-color:#41b883">前言</Button>
         <Button class="read" @click="showModal()" style="background-color:#41b883">总目录</Button>
-        <Modal
-                width="660"
-                :draggable="false"
-                v-model="modal"
-                title="总目录"
-                >
+        <Button class="read" @click="toPage('github')" style="background-color:#41b883">GitHub</Button>
+        <Modal width="660" :draggable="false" v-model="modal" title="总目录" >
             <div>
                 <img src="./catalog.png"  alt="目录图"/>
             </div>
@@ -48,6 +44,9 @@
       },
       toPage(path) {
         switch (path) {
+          case 'github':
+            path='https://github.com/ZhangChongLing/vue-notes';
+            break;
           case "30":
             path='http://note.youdao.com/noteshare?id=5c6aef7f7b5b320b92359a98aea8b659&sub=A6FCC9AFD1C340F2A3220CE60E454181';
             break;
