@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <h1>Vue源码剖析笔记</h1>
+        <h1>Vue核心源码剖析稿</h1>
         <Button class="read" @click="toPage('00')" style="background-color:#41b883">前言</Button>
         <Button class="read" @click="showModal()" style="background-color:#41b883">总目录</Button>
         <Button class="read" @click="toPage('github')" style="background-color:#41b883">GitHub</Button>
@@ -20,7 +20,7 @@
             <Button class="card" @click="toPage('05')">05生命周期篇</Button>
         </div>
         <div>
-            暂6篇，约1.5万字。@扁扁灵
+            暂6篇，约1.6万字。@扁扁灵
         </div>
         <div>致敬每一个开源人，热爱分享的开发者。</div>
     </div>
