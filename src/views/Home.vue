@@ -69,7 +69,7 @@
               path='http://note.youdao.com/noteshare?id=5e642062faf2c3bca9284ed06ab25ca6&sub=6640B59D74734C0F81BC2B38A0862E2F';
               break;
           default:
-            path=''
+            path='https://github.com/ZhangChongLing/vue-notes'
         }
         window.open(path);
       }
