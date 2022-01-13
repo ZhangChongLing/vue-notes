@@ -2,17 +2,19 @@
 Vue核心源码剖析稿
 
 ##1.说明
-受限学识水平和实践经验，难免错漏，欢迎各位前辈同学批评指正。
-本文（Vue核心源码剖析稿），目前共5篇，约1.6万字。
+①受限学识水平和实践经验，难免错漏，欢迎各位前辈同学批评指正。
+②本系列文章仅从源码角度进行学习，不作 vue 基本使用和api的解释，相关需要可阅读官网。
+③本系列（Vue源码剖析笔记），目前共6篇即01核心思想篇，02变化侦测篇（响应式篇）、03虚拟dom篇、04模板编译篇、05生命周期篇、06vue3探索篇，主要基于vue2.6和vue3.2版本源码库分析，共约2万字。
+④本系列文章的学习目的：
+    a.学习如何更好的设计代码以及搭建架构。
+    b.深入了解vue。
 
 ##2.参考资料
-①源码：https://github.com/vuejs/vue
-
-②Vue官网：https://cn.vuejs.org/
-
-③VueApi：https://cn.vuejs.org/v2/api/index.html
-
-④书籍：梁灏老师的Vue.js实战
+①阮一峰老师系列分享资料
+②源码：https://github.com/vuejs/vue     https://github.com/vuejs/vue-next
+③Vue官网：https://cn.vuejs.org/   https://v3.cn.vuejs.org
+④VueApi：https://cn.vuejs.org/v2/api/index.html   https://composition-api.vuejs.org/api.html
+⑤书籍：梁灏老师的Vue.js实战
 
 ##3.总目录
 
@@ -64,6 +66,15 @@ Vue核心源码剖析稿
     ##第四节·有关执行顺序
     ##第五节·几个生命周期钩子
     ##第六节·篇章小结
+#6Vue3探索篇
+    ## 一、两个源码库第一眼下的区别
+        1.  ###编程语言typescript
+        2. ###源码管理方式的转变：
+    ## 二、我关注到的vue1-vue3的系列变更
+        1. ###vue1到vue2的一些重大改变
+        2. ###vue2到vue3的一些关注到的改变
+        3. ###vue3什么时候能用
+    ## 三、后续说明 
 
 ```
 
